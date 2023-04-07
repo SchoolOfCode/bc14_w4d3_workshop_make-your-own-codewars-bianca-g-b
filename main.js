@@ -21,14 +21,5 @@
 
 export function modifyArrayOfNums(arrayOfNums) {
     // write your code here
-    let newArr=[]
-    // if(arrayOfNums.length%2==1) {arrayOfNums.push(0)} // alternative solution to line 28
-    for  (let i=0; i<(arrayOfNums.length-1); i+=2) {
-        newArr.push(arrayOfNums[i]+arrayOfNums[i+1]);
-    }
-    if (arrayOfNums.length%2===1) {
-        newArr.push(arrayOfNums[arrayOfNums.length-1]);
-    } 
-   return newArr;
 };
 
